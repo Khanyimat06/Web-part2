@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- UTF-8 character set -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Viewport for mobile responsiveness -->
+     <link rel="stylesheet" href="css_assets/myfirststyles.css"> <!-- External CSS file link -->
+    <title>Khanyisani's Skin Care | Enquiry</title>
+</head>
+<body>
+     <header style="background-color: #FFF8F0;"><h1>KHANYISANI'S SKIN CARE</h1>
+    Header with inline background #FFF8F0 and H1 brand -->
+        <img src="/Users/mathebulakhanyisani/Desktop/Khanyisani's Skin care logo/Copy of feminine Shiny Skin Care Woman Logo (7) (1).png" alt="Khanyisani" width="180">
+    <!-- Logo image absolute path, alt Khanyisani, width 180 -->
+    <!-- Navigation menu -->
+        <nav class="nav-link" aria-label="main navigation">
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+        </ul>
+    </nav>
+     </header>
+    <h2>Enquiry</h2>
+
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required placeholder="Your Name"><br><br>
+
+  <label for="surname">Surname:</label><br>
+  <input type="text" id="surname" name="surname" required placeholder="Your Surname"><br><br>
+
+  <label for="email">Email Address:</label><br>
+  <!-- Label for email -->
+  <input type="email" id="email" name="email" required placeholder="name@example.com"><br><br>
+
+  <label for="phonenumber">Phone Number:</label><br>
+  <input type="text" id="phonenumber" name="phonenumber" required placeholder="Phone Number"><br><br>
+
+  <label for="enquiryType">Enquiry Type:</label><br>
+  <select id="enquiryType" name="enquiryType">
+    <option>Select an option</option>
+    <OPTION>Combo</OPTION>
+    <option>Standalone</option>
+  </select><br><br>
+
+  <label for="message">Your Message:</label><br>
+  <textarea id="message" name="message" placeholder="Type your enquiry here..." rows="5" cols="40"></textarea><br><br>
+
+  <button type="submit">Submit Enquiry</button><br>
+
+</body>
+</html>
